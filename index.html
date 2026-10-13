@@ -171,14 +171,14 @@
       font-weight: 400;
     }
 
-    .join-button {
+       .join-button {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
       width: 100%;
       min-height: 76px;
-      margin: 14px 0 22px;
+      margin: 14px 0 8px; /* Bottom margin ko 22px se ghatakar 8px kar diya hai */
       padding: 16px 12px;
       text-align: center;
       text-decoration: none;
@@ -204,7 +204,7 @@
 
     .disclaimer {
       max-width: 630px;
-      margin: 0 auto;
+      margin: 12px auto 0; /* Disclaimer aur AdKash line ke beech gap maintain karne ke liye */
       color: rgba(236,255,249,.62);
       text-align: center;
       font-size: clamp(11px, 3vw, 16px);
@@ -219,13 +219,13 @@
       width: 100%;
       box-sizing: border-box;
       text-align: center;
-      padding: 22px 10px;
-      background: #050600;
-      color: #bdbdbd;
+      padding: 6px 10px 10px; /* Extra padding kam kar di hai */
+      background: transparent; /* Black background hata diya gaya hai */
+      color: #8899a6; /* Halka gray text jo background pe saaf dikhe */
       font-family: Arial, sans-serif;
-      font-size: clamp(17px, 4vw, 25px);
+      font-size: clamp(13px, 3.5vw, 18px); /* Size ko button se thoda chhota aur balanced kar diya hai */
       font-weight: 400;
-      border-bottom: 1px solid #8b843b;
+      border-bottom: none; /* Yellow bottom border hata di gayi hai */
     }
 
     .adkash-footer a {
