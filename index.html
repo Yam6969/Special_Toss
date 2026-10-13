@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00e8b6">
+  <title>𝗦𝗣𝗘𝗖𝗜𝗔𝗟 𝗧𝗢𝗦𝗦™ | Telegram Channel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="channel-card" aria-label="Special Toss channel information">
+      <div class="logo-ring">
+        <img src="logo1.jpg" alt="Special Toss logo" class="logo">
+      </div>
+
+      <h1>𝗦𝗣𝗘𝗖𝗜𝗔𝗟 𝗧𝗢𝗦𝗦™</h1>
+      <p class="tagline">Toss • Match • Session • Predictions</p>
+
+      <div class="trust-banner">Telegram Channel • Join Free</div>
+
+      <p class="countdown-line">Free Joining Ends in <span id="countdown">30</span>s</p>
+
+      <div class="features">
+        <div class="feature">
+          <span class="feature-icon" aria-hidden="true">✓</span>
+          <span>Updates</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon lock" aria-hidden="true">♙</span>
+          <span>Community</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon" aria-hidden="true">↗</span>
+          <span>Analysis</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon star" aria-hidden="true">☆</span>
+          <span>Cricket</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Replace YOUR_TELEGRAM_LINK below with your actual Telegram channel URL. -->
+    <a class="join-button" href="https://t.me/+MIhYY-Vgt5RkNjZl" target="_blank" rel="noopener noreferrer">
+      <span aria-hidden="true">✈</span> Join Free Telegram Channel
+    </a>
+
+    <p class="disclaimer">
+      Disclaimer: This channel shares cricket updates, analysis, and general information for fans.
+      It does not promote betting or gambling. No outcomes are guaranteed. Please verify information
+      independently and act responsibly.
+      <span class="footer-line">Cricket Analysis &amp; Information Only</span>
+    </p>
+
+    <div class="credit">Landing Page Design</div>
+  </main>
+
+  <script>
+    // Countdown loops forever from 30 to 0, then starts again at 30.
+    const countdownElement = document.getElementById("countdown");
+    let seconds = 30;
+
+    function tickCountdown() {
+      countdownElement.textContent = seconds;
+      seconds -= 1;
+
+      if (seconds < 0) {
+        seconds = 30;
+      }
+    }
+
+    tickCountdown();
+    setInterval(tickCountdown, 1000);
+  </script>
+</body>
+</html>
